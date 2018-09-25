@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<form action="2.php" method="POST" role="form">
+<h3>Dang ki <h3>
+
+<div class="form-group">
+			<label for="">Ten</label>
+			<input type="text" class="form-control" name="ten" placeholder="Ho va ten">
+		</div>
+		<div class="form-group">
+			<label for="">Lop</label>
+			<input type="text" class="form-control" name="lop" placeholder="Lop">
+		</div>
+		<div class="form-group">
+			<label for="">Truong</label>
+			<input type="text" class="form-control" name="truong" placeholder="Dai hoc">
+		</div>
+
+		<div class="form-group">
+			<label for="">Gioi tinh</label>
+			<input type="radio"  name="gioitinh" value="nam"> Nam
+			<input type="radio"  name="gioitinh" value="nu"> Nu
+			<input type="radio"  name="gioitinh" value="chua xac dinh"> Chua xac dinh
+
+		</div>
+		<div class="form-group">
+			<label for="">So thich</label>
+			<select name="sothich" id="input" class="form-control" required="required">
+				<option value="anime">anime</option>
+				<option value="manga">manga</option>
+				<option value="cosplay">cosplay</option>
+			</select>
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button>
+		<button type="restart" class="btn btn-danger">Restart</button>
+
+</form>
+
+
+</body>
+</html>
+
