@@ -29,7 +29,7 @@
 	</head>
 	<body>
 	<form action="ex1.php" method="POST" role= "from">
-			<div class="form-group">
+			<div>
 				<label for=""></label>
 				<select name='option'>
 					<option value="1">radian to degrees</option>
