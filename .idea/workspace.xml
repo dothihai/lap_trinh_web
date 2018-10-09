@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4787282-749e-4c8b-a2a0-6f0f62b9a226" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lab3/ex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/ex1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/DateTimeFunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/DateTimeFunction.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <session id="371505118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -69,7 +69,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
     <option name="y" value="44" />
     <option name="width" value="1299" />
@@ -134,7 +134,7 @@
     <option name="totallyTimeSpent" value="4260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-11" width="1321" height="780" extended-state="7" />
+    <frame x="46" y="-11" width="1321" height="780" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26158682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
